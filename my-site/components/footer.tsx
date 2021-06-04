@@ -15,7 +15,7 @@ const BottomBar: React.FC = ({}) => {
         <Row className={styles.footer__wrapper}>
             <Row className={styles.footer__body} style={{width:'50%'}}>
                 <Col className={styles.footer__body}>
-                        <IconButton icon='bi bi-github' url="https://github.com/RyanFoxMDFung"/>
+                        <IconButton icon='bi bi-github' url="https://github.com/PenguinLogistic"/>
                         <IconButton icon='bi bi-envelope-fill' url="#contact"/>
                         <IconButton icon='bi bi-linkedin' url="https://www.linkedin.com/in/ryan-f-02484a117/"/>
                 </Col>
