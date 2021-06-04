@@ -1,0 +1,38 @@
+
+@import '../styles/colors.scss';
+
+
+.row__section:nth-child(odd) {
+    background-color: $light-blue;
+}
+
+.row__section:nth-child(even) {
+    color: $white;
+}
+
+.row__wrapper {
+    padding: 10em 21em;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+    &__aboutPic{
+        object-fit: cover;
+        max-width: 110%;
+        width: 100%;
+        padding: 0%;
+        max-height:38vh;
+        object-position: 0 50%;
+    }
+}
+
+.paragraph {
+    letter-spacing: 1px;
+    padding-top:2rem;
+    line-height: 1.8;
+}
